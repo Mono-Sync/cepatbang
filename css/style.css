@@ -1,0 +1,198 @@
+
+
+body {
+  padding-top: 5rem;
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+.navbar-toggler-icon {
+    color: #FFA500;
+    background-color: #FFA500;
+}
+/* change the brand and text color */
+.navbar .navbar-brand,
+.navbar .navbar-text {
+    color: #000!important;
+}
+#colorText{
+  color: #FFA500;
+}
+
+.resizedTextBox{
+  width: 500px;
+  height: 53.7px;
+  font-size: 25px;
+}
+/* change the background color */
+.navbar {
+    background-color: #fff;
+}
+
+.jumbotron {
+    background-image: url("../img/bg1.jpg");
+    margin-bottom: 0;
+    min-height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -10px;
+}
+
+#space {
+  margin-top: 10%;
+  margin-left: 25%;
+}
+
+
+.clear {
+  clear: both;
+}
+.input-group-addon.postcode {
+    color: rgb(255, 255, 255);
+    background-color: #FFA500;
+    border-color: #FFA500;
+}
+.logo{
+  width: 200px;
+  height: 50px;
+}
+
+.btn.btn-primary{
+  background:#FFA500;
+  border-color: #FFA500;
+}
+.btn.btn-primary {
+    padding: 10px 15px;
+    font-size: 20px;
+    border-radius: 1px;
+    width:10%;    //Specify your width here
+}
+#exploreSpace {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+#h3pic {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+#howWork {
+  margin-top: 30px;
+  margin-bottom: -10px;
+  color: #000;
+}
+
+.register {
+  background-color: #2c3e50;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+#register{
+  margin-left: -60px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.btn.btn-outline-success{
+  margin-left: -40px;
+  margin-bottom: 50px;
+  padding: 10px 15px;
+  font-size: 20px;
+  border-radius: 1px;
+  width:40%;    //Specify your width here
+}
+
+.pic img{
+  width: 110%;
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+
+@media (max-width: 575px) {
+
+  #space {
+    margin-top: 30%;
+    margin-left: 5%;
+  }
+
+  .jumbotron {
+      background-image: url("../img/bg2.jpg");
+      margin-bottom: 0;
+      min-height: 400px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-top: -10px;
+  }
+
+  .postcode {
+    margin-bottom: 10px;
+  }
+  .resizedTextBox {
+    margin-bottom: 10px;
+    width: 80%;
+  }
+
+  .pic img{
+    width: 105%;
+    height: 65%;
+    margin-top: 30px;
+    margin-bottom: 100px;
+  }
+
+  #howWork {
+    text-align: center;
+  }
+
+  #exploreH3 {
+    text-align: center;
+  }
+ #button1 {
+   padding: 10px 15px;
+   font-size: 20px;
+   border-radius: 1px;
+   width:50%;    //Specify your width here
+   margin-top: 40px;
+   margin-bottom: 10px;
+   margin-left: 70px;
+ }
+
+ #button2 {
+   padding: 10px 15px;
+   font-size: 20px;
+   border-radius: 1px;
+   width:50%;    //Specify your width here
+   margin-top: 40px;
+   margin-bottom: 10px;
+   margin-left: 80px;
+   text-align: center;
+ }
+
+ #register{
+   padding-left: 20%;
+   text-align: center;
+ }
+
+ .btn.btn-outline-success{
+   margin-left: 30%;
+   margin-bottom: 50px;
+   padding: 10px 15px;
+   font-size: 20px;
+   border-radius: 1px;
+   width:40%;    //Specify your width here
+ }
+
+
+}
