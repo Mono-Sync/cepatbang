@@ -14,6 +14,7 @@
 
     <!-- Custom styles for this template -->
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/cards.css" rel="stylesheet">
 
     <script src="https://use.fontawesome.com/0adf225e8c.js"></script>
   </head>
