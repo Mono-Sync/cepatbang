@@ -93,6 +93,8 @@ a:hover, a:visited, a:link, a:active
   margin-top: 30px;
   margin-bottom: -10px;
   color: #000;
+  font-weight:bold;
+  text-align: center;
 }
 
 .register {
@@ -119,6 +121,7 @@ a:hover, a:visited, a:link, a:active
   width: 110%;
   margin-top: 30px;
   margin-bottom: 100px;
+  margin-left: -5%;
 }
 
 @media (max-width: 575px) {
@@ -148,7 +151,7 @@ a:hover, a:visited, a:link, a:active
 
   .pic img{
     width: 105%;
-    height: 65%;
+    height: 60%;
     margin-top: 30px;
     margin-bottom: 100px;
   }
