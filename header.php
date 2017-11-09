@@ -39,7 +39,7 @@
             <a class="nav-link"  id="colorText" href="#"><span class="fa fa-question-circle fa-lg" aria-hidden="true"></span> Help</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" id="colorText"  href="#"><span class="fa fa-user fa-lg" aria-hidden="true"></span> Login</a>
+            <a class="nav-link" id="colorText"  href="#" data-toggle="modal" data-target="#exampleModal"><span class="fa fa-user fa-lg" aria-hidden="true"></span> Login</a>
           </li>
         </ul>
       </div>

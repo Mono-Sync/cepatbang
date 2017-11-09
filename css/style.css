@@ -1,5 +1,4 @@
 
-
 body {
   padding-top: 5rem;
 }
@@ -124,7 +123,171 @@ a:hover, a:visited, a:link, a:active
   margin-left: -5%;
 }
 
+
+
+/* Start of Modal */
+
+.modal-content {
+  min-height: 300px;
+  width: 400px;
+  margin-top: 20%;
+}
+
+
+.cont_tabs_login {
+  margin-top: 30px;
+position: relative;
+  width: 90%;
+}
+
+.cont_text_inputs{
+  margin-top: 10%;
+  margin-left: 0%;
+}
+.input_form_sign {
+  display: block;
+}
+
+.ul_tabs > li {
+position: relative;
+  float: left;
+  width: 50%;
+  list-style: none;
+  text-align: center;
+}
+
+.ul_tabs > li > a {
+  color: #999999;
+}
+
+
+  .ul_tabs > .active > a  {
+color: #FFA500;
+
+}
+
+
+.linea_bajo_nom {
+  position: relative;
+  width: 100%;
+  float: left;
+  background-color: #999;
+  height: 2px;
+}
+.active .linea_bajo_nom {
+  position: relative;
+  width: 100%;
+  float: left;
+background-color: #FFA500;
+height: 2px;
+}
+
+.cont_text_inputs {
+position: relative;
+  float: left;
+  width: 100%;
+  margin-top: 20px;
+}
+
+
+.input_form_sign {
+  position: relative;
+  float: left;
+  width: 90%;
+  border: none;
+  border-bottom: 1px solid #B0BEC5 ;
+  background-color: transparent;
+  font-size: 14px;
+  outline: none;
+  transition: all 0.5s;
+    height: 0px;
+    margin: 0px;
+    padding: 0px;
+opacity: 0;
+display: none;
+}
+
+.active_inp {
+  margin: 5% 5% ;
+  padding: 10px 0px;
+  opacity: 1;
+height: 5px;
+}
+
+
+.input_form_sign:focus {
+  border-bottom: 1px solid #FFA500 ;}
+
+.link_forgot_pass {
+position: relative;
+  margin-top: 0px;
+  margin-left: 140px;
+  text-decoration: none;
+  color: #999;
+  font-size: 13px;
+  display: none;
+  float: left;
+  transition: all 0.5s;
+}
+.cont_btn {
+  position: relative;
+  float: left;
+}
+
+.btn_sign {
+  background: #FFA500;
+  border-radius: 8px;
+  padding: 15px 30px;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+  position: relative;
+  float: left;
+  margin-left: 140px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.terms_and_cons {
+  width: 70%;
+  margin-left: 20px;
+  color: #999;
+  font-size: 13px;
+  transition: all 0.5s;
+}
+
+.d_none {
+  display: none;
+}
+.d_block {
+  display: block;
+}
+
+
+  .cont_text_inputs > input:nth-child(1){
+    transition-delay: 0.2s;
+  }
+
+  .cont_text_inputs > input:nth-child(2){
+    transition-delay: 0.4s;
+  }
+  .cont_text_inputs > input:nth-child(3){
+    transition-delay: 0.6s;
+  }
+  .cont_text_inputs > input:nth-child(4){
+    transition-delay: 0.8s;
+  }
+
+/* End of Modal */
 @media (max-width: 575px) {
+
+  .modal-content {
+    min-height: 400px;
+    width: 100%;
+    margin-top: 0%;
+
+  }
 
   #space {
     margin-top: 30%;
