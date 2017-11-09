@@ -283,7 +283,7 @@ position: relative;
 @media (max-width: 575px) {
 
   .modal-content {
-    min-height: 400px;
+    min-height: 300px;
     width: 100%;
     margin-top: 0%;
 
