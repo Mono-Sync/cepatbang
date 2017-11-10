@@ -12,6 +12,8 @@ a:hover, a:visited, a:link, a:active
     text-decoration: none;
 }
 
+
+
 .navbar-toggler-icon {
     color: #FFA500;
     background-color: #FFA500;
@@ -128,7 +130,7 @@ a:hover, a:visited, a:link, a:active
 /* Start of Modal */
 
 .modal-content {
-  min-height: 300px;
+  min-height: 350px;
   width: 400px;
   margin-top: 20%;
 }
@@ -147,6 +149,10 @@ position: relative;
 .input_form_sign {
   display: block;
 }
+.ul_tabs{
+  margin-left: 100px;
+}
+
 
 .ul_tabs > li {
 position: relative;
@@ -218,6 +224,20 @@ height: 5px;
 .input_form_sign:focus {
   border-bottom: 1px solid #FFA500 ;}
 
+
+  .sign_up {
+    margin-bottom: 20px;
+    margin-left: 90px;
+    color: #999;
+    font-size: 13px;
+
+  }
+
+  .signup a:hover {
+    color: #FFA500;
+  }
+
+
 .link_forgot_pass {
 position: relative;
   margin-top: 0px;
@@ -283,7 +303,7 @@ position: relative;
 @media (max-width: 575px) {
 
   .modal-content {
-    min-height: 300px;
+    min-height: 350px;
     width: 100%;
     margin-top: 0%;
 
