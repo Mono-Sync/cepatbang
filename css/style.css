@@ -409,11 +409,16 @@ position: relative;
  .reg {
    min-height: 500px;
    width: 350px;
-   margin-top: 20%;
+   margin-top: 5%;
  }
 
  .register {
-   height: 1000px;
+   height: 900px;
  }
+
+ body{
+   height: 500px;
+ }
+
 
 }
