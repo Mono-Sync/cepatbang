@@ -26,6 +26,7 @@
 
           <input type="text" class="input_form_sign d_block active_inp" placeholder="FIRST NAME" name="firstname" />
           <input type="text" class="input_form_sign d_block active_inp" placeholder="LAST NAME" name="lastname" />
+          <input type="text" class="input_form_sign d_block active_inp" placeholder="PHONE NUMBER" name="phonenumber" />
         <input type="text" class="input_form_sign d_block active_inp" placeholder="EMAIL" name="email" />
 
         <input type="password" class="input_form_sign d_block  active_inp" placeholder="PASSWORD" name="password" />
