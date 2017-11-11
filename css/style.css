@@ -1,4 +1,13 @@
 
+.register {
+  background-image: url('../img/bg6.jpg');
+  width: 100%;
+  height: 900px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 body {
   padding-top: 5rem;
 }
@@ -38,7 +47,7 @@ a:hover, a:visited, a:link, a:active
 }
 
 .jumbotron {
-    background-image: url("../img/bg3.jpg");
+    background-image: url("../img/bg7.jpg");
     margin-bottom: 0;
     min-height: 500px;
     background-position: center;
@@ -299,6 +308,17 @@ position: relative;
     transition-delay: 0.8s;
   }
 
+  .cont {
+    margin-top: -5%;
+    margin-left: 37%;
+  }
+  .reg {
+    min-height: 500px;
+    width: 400px;
+    margin-top: 20%;
+  }
+
+
 /* End of Modal */
 @media (max-width: 575px) {
 
@@ -368,6 +388,7 @@ position: relative;
  }
 
  #register{
+   height: 50px;
    padding-left: 20%;
    text-align: center;
  }
@@ -381,5 +402,18 @@ position: relative;
    width:40%;    //Specify your width here
  }
 
+ .cont {
+   margin-top: 0%;
+   margin-left:6%;
+ }
+ .reg {
+   min-height: 500px;
+   width: 350px;
+   margin-top: 20%;
+ }
+
+ .register {
+   height: 1000px;
+ }
 
 }
