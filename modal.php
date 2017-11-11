@@ -38,7 +38,7 @@
 
       <div class="signup">
 
-            <a href="#" class="link_forgot_pass d_block" >Forgot Password ?</a>
+            <a href="forgot_password.php" class="link_forgot_pass d_block" >Forgot Password ?</a>
           </div>
 
 

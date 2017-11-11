@@ -411,6 +411,11 @@ position: relative;
    width: 350px;
    margin-top: 5%;
  }
+ .forgot {
+   height:150px;
+   width: 250px;
+   margin-top: 5%;
+ }
 
  .register {
    height: 900px;
@@ -435,6 +440,5 @@ position: relative;
  body{
    height: 500px;
  }
-
 
 }
