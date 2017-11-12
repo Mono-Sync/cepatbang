@@ -29,7 +29,7 @@
 
       <div class="signup">
 
-        <a href="register.php" class="sign_up ">Don't have an account? Signup here</a>
+        <a href="register" class="sign_up ">Don't have an account? Signup here</a>
           </div>
 
           <div class="clear">
@@ -38,7 +38,7 @@
 
       <div class="signup">
 
-            <a href="forgot_password.php" class="link_forgot_pass d_block" >Forgot Password ?</a>
+            <a href="forgot_password" class="link_forgot_pass d_block" >Forgot Password ?</a>
           </div>
 
 
