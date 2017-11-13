@@ -17,15 +17,15 @@ MYSQL and php environment
 
 2. Create Database accounts
 
-'''
+```
 
 CREATE DATABASE accounts;
 
-'''
+```
 
 3. Create Table
 
-'''
+```
 
 CREATE TABLE `accounts`.`users`
 (
@@ -40,6 +40,6 @@ CREATE TABLE `accounts`.`users`
 PRIMARY KEY (`id`)
 );
 
-'''
+```
 
-4.Make sure details in db.php matches your phpadmin environment
+4.Make sure details in db.php matches your phpmyadmin environment
