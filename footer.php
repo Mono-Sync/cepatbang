@@ -6,8 +6,6 @@
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/modal.js"></script>
-<script src="node_modules/amazon-cognito-identity-js/dist/aws-cognito-sdk.min.js"></script>
-<script src="node_modules/amazon-cognito-identity-js/dist/amazon-cognito-identity.min.js"></script>
 <script>
 $(document).ready(function(){
 $('[data-toggle="popover"]').popover();

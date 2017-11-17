@@ -19,6 +19,8 @@
     <link href="css/cards.css" rel="stylesheet">
 
     <script src="https://use.fontawesome.com/0adf225e8c.js"></script>
+    <script src="node_modules/amazon-cognito-identity-js/dist/aws-cognito-sdk.min.js"></script>
+    <script src="node_modules/amazon-cognito-identity-js/dist/amazon-cognito-identity.min.js"></script>
   </head>
 
   <body>
