@@ -24,7 +24,7 @@
   <body>
 
     <nav class="navbar navbar-expand-md navbar-dark fixed-top">
-      <a class="navbar-brand" href="index">
+      <a class="navbar-brand" href="https://www.cepatbang.com">
     <img src="img/cepatbang_logo2.png" class="logo" alt="">
   </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">

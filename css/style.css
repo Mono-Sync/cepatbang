@@ -1,4 +1,20 @@
 
+#regForgot{
+  padding-bottom: 20px;
+  margin-left: 37%;
+}
+
+#signForgot{
+  margin-left: 43%;
+}
+
+#submit{
+  margin-top: 20px;
+}
+
+#title{
+  color: #FFA500;
+}
 .register {
   background-image: url('../img/bg7.jpg');
   width: 100%;
@@ -235,9 +251,8 @@ height: 5px;
 
 
   .sign_up {
-    margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 80px;
+    margin-left: 90px;
     color: #999;
     font-size: 13px;
 
@@ -433,7 +448,7 @@ position: relative;
    float: left;
    margin-left: 130px;
    margin-top: 20px;
-   margin-bottom: 20px;
+   margin-bottom: 0px;
    cursor: pointer;
  }
 
