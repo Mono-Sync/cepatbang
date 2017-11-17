@@ -4,3 +4,4 @@
 .env
 composer
 composer.phar
+.htaccess
