@@ -1,0 +1,309 @@
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+
+.logo{
+  margin-left: -700px;
+  width: 200px;
+  height: 50px;
+}
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: .05rem solid #fff;
+}
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  background-color: #333;
+}
+body {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
+}
+body {
+  background-image: url('../img/1a.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+  box-shadow: inset 0 0 5rem rgba(0,0,0,.5);
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Padding for spacing */
+.inner {
+  padding: 2rem;
+}
+
+
+/*
+ * Header
+ */
+
+.masthead {
+  margin-bottom: 2rem;
+}
+
+.masthead-brand {
+  margin-bottom: 0;
+}
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  color: rgba(255,255,255,.5);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255,255,255,.25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+@media (min-width: 48em) {
+  .masthead-brand {
+    float: left;
+  }
+  .nav-masthead {
+    float: right;
+  }
+}
+
+
+/*
+ * Cover
+ */
+
+.cover {
+  padding: 0 1.5rem;
+}
+.cover .btn-lg {
+  padding: .75rem 1.25rem;
+  font-weight: 700;
+}
+
+
+/*
+ * Footer
+ */
+
+.mastfoot {
+  color: rgba(255,255,255,.5);
+}
+
+.hidemobile{
+  visibility: hidden;
+}
+
+/*
+ * Affix and center
+ */
+
+@media (min-width: 40em) {
+  /* Pull out the header and footer */
+  .masthead {
+    position: fixed;
+    top: 0;
+  }
+  .mastfoot {
+    position: fixed;
+    bottom: 0;
+  }
+
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+
+  /* Handle the widths */
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+
+@media (min-width: 62em) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 42rem;
+  }
+}
+
+@media (max-width: 340px) { /*iphone 5*/
+.logo{
+  margin-left: 0px;
+}
+
+body {
+  background-image: url('../img/mobilecover.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.hidemobile{
+  visibility:visible;
+}
+.hidemobile img{
+  margin-top: 250px;
+  margin-left: -130px;
+  width: 200px;
+  height: 150px;
+}
+
+}
+@media screen and (max-width:375px) and (min-width: 341px) { /*iphone 6*/
+.logo{
+  margin-left: 0px;
+}
+
+body {
+  background-image: url('../img/mobilecover.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.hidemobile{
+  visibility:visible;
+}
+.hidemobile img{
+  margin-top: 300px;
+  margin-left: -150px;
+  width: 250px;
+  height: 200px;
+}
+
+}
+
+@media screen and (max-width:740px) and (min-width: 376px) { /*iphone 6s plus*/
+.logo{
+  margin-left: 0px;
+}
+
+body {
+  background-image: url('../img/mobilecover.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.hidemobile{
+  visibility:visible;
+}
+.hidemobile img{
+  margin-top: 350px;
+  margin-left: -170px;
+  width: 250px;
+  height: 200px;
+}
+
+}
+@media screen and (max-width:999px) and (min-width: 741px) { /*ipad*/
+.logo{
+  margin-left: 150%;
+}
+
+body {
+  background-image: url('../img/1a.png');
+  background-position:right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 110%;
+  height: 110%;
+}
+
+.hidemobile{
+  visibility:hidden;
+}
+.hidemobile img{
+  margin-top: 350px;
+  margin-left: -170px;
+  width: 250px;
+  height: 200px;
+}
+
+}
+@media screen and (max-width:1366px) and (min-width: 1000px) { /*ipad pro*/
+.logo{
+  margin-left: 30%;
+  width: 400px;
+  height: 100px;
+}
+
+
+
+body {
+  background-image: url('../img/1a.png');
+  background-position:right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 140%;
+  height: 140%;
+}
+
+.hidemobile{
+  visibility:hidden;
+}
+.hidemobile img{
+  margin-top: 350px;
+  margin-left: -170px;
+  width: 250px;
+  height: 200px;
+}
+
+}
